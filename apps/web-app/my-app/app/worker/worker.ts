@@ -12,4 +12,4 @@ async function executeInBackground(queue: any, payload: any) {
   channel.sendToQueue(queue, Buffer.from(JSON.stringify(payload)));
 }
 
-export default executeInBackground
+export default executeInBackground;

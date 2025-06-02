@@ -7,7 +7,7 @@ services:
       - "4566:4566"            # S3 endpoint
      
     environment:
-      - SERVICES=s3,rabbitmq   # Enable S3 + RabbitMQ
+      - SERVICES=s3,  # Enable S3 
       - DEBUG=1
       - DEFAULT_REGION=ap-south-1
       - RABBITMQ_DEFAULT_USER=test
